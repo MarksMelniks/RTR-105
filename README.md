@@ -41,3 +41,17 @@ ________________________________________________________________________________
      cp                         copy  ili  kopirovat'
      chmod                      zadat' raxreshenie
      PATH
+
+
+
+
+
+   61  history >history_29092020.txt
+   62  ls -lt
+   63  git config --global user.email markmelnik1@gmail.com
+   64  git add.
+   65  git add .
+   66  git commit -m "4. nodarbiba"
+   67  rm *.out
+   68  ls -lt
+   69  git push origin master
