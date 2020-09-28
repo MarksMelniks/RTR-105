@@ -1,0 +1,61 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  echo $?
+    5  pwd
+    6  git clone
+    7  git clone https://github.com/MarksMelniks/RTR-105
+    8  ls -lt
+    9  /RTR-105
+   10  /RTR-105$
+   11  ls -lt
+   12  cd RTR-105
+   13  pwd
+   14  nano first.c
+   15  ls -lt
+   16  gcc first.c 
+   17  echo$?
+   18  echo $?
+   19  ls -lt
+   20  ./a.out 
+   21  ls -lt
+   22  cp first.c second.c
+   23  nano second.c 
+   24  ls -lt
+   25  gcc second.c
+   26  ls -lt
+   27  gcc first.c -o first.out
+   28  ls -lt
+   29  gcc second.c -o second.out
+   30  la -lt
+   31  cp first.c HelloWorld.c
+   32  ls -lt
+   33  nano HelloWorld.c 
+   34  gcc HelloWorld.c 
+   35  nano HelloWorld.c 
+   36  ./a.out
+   37  ls -lt
+   38  gcc HelloWorld.c 
+   39  ./a.out
+   40  nano HelloWorld.c 
+   41  gcc HelloWorld.c 
+   42  ./a.out
+   43  nano HelloWorld.c 
+   44  gcc HelloWorld.c 
+   45  ./a.out
+   46  echo $?
+   47  nano HelloWorld.c 
+   48  gcc HelloWorld.c 
+   49  ./a.out
+   50  echo $?
+   51  nano HelloWorld.c 
+   52  gcc HelloWorld.c 
+   53  ./a.out
+   54  echo $?
+   55  nano HelloWorld.c 
+   56  gcc HelloWorld.c 
+   57  ./a.out
+   58  echo $?
+   59  pwd
+   60  history
+   61  history >history_29092020.txt

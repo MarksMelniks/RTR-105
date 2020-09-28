@@ -1,0 +1,6 @@
+//Coment
+main(){}
+/*
+Coment
+block
+*/
