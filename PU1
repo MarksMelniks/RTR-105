@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+
+float a;
+printf("Ievadiet skaitli a:");
+scanf("%f",&a);
+float b;
+printf("Ievadiet skaitli b:");
+scanf("%f",&b);
+float c = a * b;
+printf("a*b=%.0f\n",a*b);
+
+
+return 0;
+
+}
