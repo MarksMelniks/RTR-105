@@ -1,0 +1,65 @@
+#include <stdio.h>
+
+int main()
+
+{
+
+int a;
+int b;
+int c;
+int k; //max
+int l; //average
+int m; //min
+char s;
+printf("Ievadiet 3 skaitļus un sēcību:");//piemēram 12 3 45 a !p.s. ar
+scanf("%d %d %d %c" , &a , &b , &c , &s ); //vienādiem skaitļiem nestrādā!
+
+
+if(a>b && a>c){
+k=a;
+}
+if(b>a && b>c){
+k=b;
+}
+if(c>a && c>b){
+k=c;
+}
+
+
+if(a<b && a<c){
+m=a;
+}
+if(b<a && b<c){
+m=b;
+}
+if(c<a && c<b){
+m=c;
+}
+
+
+if(a>m && a<k){
+l=a;
+}
+if(b>m && b<k){
+l=b;
+}
+if(c>m && c<k){
+l=c;
+}
+
+
+if(s=='a'){
+printf("%d %d %d\n", m , l , k);
+}
+else if(s=='d'){
+printf("%d %d %d\n", k , l , m);
+}
+
+
+
+
+
+
+
+return 0;
+}
