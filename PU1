@@ -16,3 +16,23 @@ printf("a*b=%.0f\n",a*b);
 return 0;
 
 }
+
+___________________________________________________________________________________UPD___________________________________________________________________________________________
+
+#include <stdio.h>
+
+int main()
+
+{
+long long a;
+long long b;
+printf("Ievadiet skaitli a: ");
+scanf("%llu",&a);
+printf("Ievadiet skaitli b: ");
+scanf("%llu",&b);
+printf("a*b= %llu\n",a * b );
+
+
+return 0;
+
+}
