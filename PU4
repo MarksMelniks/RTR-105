@@ -3,7 +3,7 @@
 
 int main(){
 
-char d;
+char d,e,f;
 int a,b,c;
 long long k,l,m;
 c=b=1;
@@ -12,6 +12,8 @@ printf("Ievadiet skaitli int datatipam \n");
 scanf("%d" , &a);
 printf("Ievadiet skaitli long long datatipam \n");
 scanf("%lld" , &k);
+printf("Ievadiet skaitli char datatipam \n");
+scanf("%s" , &d);
 //printf("Ievadiet skaitli char datatipam \n");
 //scanf("%c" , &d);
 
@@ -44,10 +46,32 @@ scanf("%lld" , &k);
       printf("Faktoriāla vērtība long long datatipam ir: %lld\n",m); 
      }
      
-  if(1)
-   {
-    printf("Apreiķināt faktoriālu char datatipam nav iespējams\n");
+  
+  
+   //if(d!=fabs(d) || d>5)
+   //{
+    //printf("Pareizi apreiķināt faktoriālu ievadītam skaitlim char datatipam nav iespējams\n");
+   //}
+    //else
+     //{
+      //while(e<=d)
+       //{
+        //f=f*e;
+        //e=e+1;
+       //}
+      //printf("Faktoriāla vērtība char datatipam ir: %c\n",f); 
+     //}
+     
+ 
+   if(1){
+       printf("Pareizi apreiķināt faktoriālu ievadītam skaitlim char datatipam nav iespējams\n");
    }
+ 
+ 
+ 
+ 
+ 
+ 
  
 return 0;
 }
