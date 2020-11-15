@@ -1,0 +1,58 @@
+#include <stdio.h>
+
+int a = 5;
+int b = 10; 
+
+void first_function();
+int second_function();
+void third_function(int c_1);
+double fourth_function(float c_2);
+
+
+int main()
+{
+
+first_function();
+printf("output of second function result is %d\n", second_function());
+third_function(1);
+printf("output of fourth function result is %0.f\n", fourth_function);
+
+return 0;
+}
+
+
+void first_function()
+{
+    int a = 5;
+    int b = 10;
+    int c;
+    c=b-a;
+    printf("c value from first_function is %d\n",c);
+}
+
+int second_function()
+{
+    int a = 5;
+    int b = 10;
+    int c;
+    c=a+b;
+    
+    return c;
+}
+
+void third_function(int c_1)
+{
+    int a = 5;
+    int b = 10;
+    c_1=a*b;
+    printf("c_1 value from third_function is %d\n",c_1);
+}
+
+double fourth_function(float c_2)
+{
+    int a = 5;
+    int b = 10;
+    c_2=b/2*a;
+    
+    return c_2;
+}
