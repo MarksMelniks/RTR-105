@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <math.h>                      //if not compiling try   gcc ..... .c -lm
+
+int main()                             //y=(1-x)*exp(-x)
+{
+
+int a, b;
+double x , y , n;
+
+printf("Ievadiet a robežu (a<b)\n ");
+ scanf("%d", &a);
+printf("Ievadiet b robežu\n ");
+ scanf("%d", &b);
+printf("Ievadiet soli n (n>0)\n ");     //principā zinot robežas a un b 
+ scanf("%lf" , &n);                     //un soli n var apreiķināt nepieciešamo punktu skaitu 
+
+//float x[N];
+//float y[N];
+x=a;
+
+FILE *file = fopen("data.txt","w");
+
+ while(x<=b)
+ {
+  y=(1-x)*exp(-x);
+//printf("%.1f       %f\n ",x , y);
+  fprintf(file,"%.1f    %f\n ", x , y);
+  x=x+n;
+ }
+
+fclose(file);
+
+return 0;
+
+}
