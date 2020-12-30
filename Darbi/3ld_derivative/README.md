@@ -1,4 +1,4 @@
-DERIVATIVE.C
+# DERIVATIVE.C
 
     #include <stdio.h>
     #include <math.h>
@@ -40,7 +40,7 @@ DERIVATIVE.C
     
 
     
-#GNUPLOT
+# GNUPLOT
 
 
 
