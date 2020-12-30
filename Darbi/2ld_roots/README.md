@@ -15,8 +15,6 @@ int main(){
     printf("Ievadiet precizitāti ");
     scanf("%f",&eps);
     
-    
-    
     float mid=a;
     
     while((b-a)>=eps){
