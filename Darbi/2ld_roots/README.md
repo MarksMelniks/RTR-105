@@ -55,13 +55,14 @@
     set title 'Roots'
     #set xrange [-2:2]
     #set yrange [-2:2]
+    set grid
     set label "   (-1.26;0.021039)" at -1.26 , 0.021039 point pointtype 2
     #set object circle at -1.26 , 0.021039 size 0.1
     plot (1-x)*exp(-x)-8
 
+![roots2 1](https://user-images.githubusercontent.com/71380657/103366640-d2c6ea00-4acb-11eb-98bf-4f9ce04f928d.png)
+![roots1 1](https://user-images.githubusercontent.com/71380657/103366644-d35f8080-4acb-11eb-905c-b8209143215c.png)
 
-![roots1](https://user-images.githubusercontent.com/71380657/103362856-60054100-4ac2-11eb-94a3-11c0061acc33.png)
-![roots2](https://user-images.githubusercontent.com/71380657/103362857-609dd780-4ac2-11eb-9a9c-30449bece18b.png)
 
 
 
