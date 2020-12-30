@@ -59,7 +59,9 @@
     #set object circle at -1.26 , 0.021039 size 0.1
     plot (1-x)*exp(-x)-8
 
-![roots](https://user-images.githubusercontent.com/71380657/103362853-5f6caa80-4ac2-11eb-8d37-b63763d8b8ac.png)
+
+![roots1](https://user-images.githubusercontent.com/71380657/103362856-60054100-4ac2-11eb-94a3-11c0061acc33.png)
 ![roots2](https://user-images.githubusercontent.com/71380657/103362857-609dd780-4ac2-11eb-9a9c-30449bece18b.png)
+
 
 
