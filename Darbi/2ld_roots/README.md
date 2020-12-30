@@ -41,7 +41,7 @@
     return 0;
     }
     
- 
+ ![roots3](https://user-images.githubusercontent.com/71380657/103362668-33e9c000-4ac2-11eb-8f33-ead2a3a4a095.png)
     
     
    # GNUPLOT
