@@ -53,8 +53,8 @@
     #Key means label...
     set key inside bottom right
     set title 'Roots'
-    #set xrange [-2:2]
-    #set yrange [-2:2]
+    set xrange [-2:2]
+    set yrange [-2:2]
     set grid
     set label "   (-1.26;0.021039)" at -1.26 , 0.021039 point pointtype 2
     #set object circle at -1.26 , 0.021039 size 0.1
