@@ -42,8 +42,11 @@
     
 #GNUPLOT
 
-![second derivative](https://user-images.githubusercontent.com/71380657/103377405-00ba2780-4ae8-11eb-9948-cea14679a162.png)
+
+
 ![derivative1](https://user-images.githubusercontent.com/71380657/103377401-00219100-4ae8-11eb-9899-a2e9485fe626.png)
+
+![second derivative](https://user-images.githubusercontent.com/71380657/103377405-00ba2780-4ae8-11eb-9948-cea14679a162.png)
 
 
 
