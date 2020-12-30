@@ -40,24 +40,22 @@
     
     return 0;
     }
+    
+    
+    
+   # GNUPLOT
 
+    #Scale font and line width (dpi) by changing the size! It will always display stretched.
+    set terminal svg size 400,300 enhanced fname 'arial'  fsize 10 butt solid
+    set output 'out.svg'
 
-
-_________________________________________________________________________________________________________________________________________________________________________________
-
-# GNUPLOT
-
-#Scale font and line width (dpi) by changing the size! It will always display stretched.
-set terminal svg size 400,300 enhanced fname 'arial'  fsize 10 butt solid
-set output 'out.svg'
-
-#Key means label...
-set key inside bottom right
-set title 'Roots'
-#set xrange [-2:2]
-#set yrange [-2:2]
-set label "   (-1.26;0.021039)" at -1.26 , 0.021039 point pointtype 2
-#set object circle at -1.26 , 0.021039 size 0.1
-plot (1-x)*exp(-x)-8
+    #Key means label...
+    set key inside bottom right
+    set title 'Roots'
+    #set xrange [-2:2]
+    #set yrange [-2:2]
+    set label "   (-1.26;0.021039)" at -1.26 , 0.021039 point pointtype 2
+    #set object circle at -1.26 , 0.021039 size 0.1
+    plot (1-x)*exp(-x)-8
 
 
