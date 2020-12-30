@@ -34,3 +34,13 @@
      return 0;
 
     }
+    
+![derivative1](https://user-images.githubusercontent.com/71380657/103377401-00219100-4ae8-11eb-9899-a2e9485fe626.png)
+    
+#GNUPLOT
+
+![second derivative](https://user-images.githubusercontent.com/71380657/103377405-00ba2780-4ae8-11eb-9948-cea14679a162.png)
+![derivative](https://user-images.githubusercontent.com/71380657/103377407-0152be00-4ae8-11eb-8fd6-2ca5f4853525.png)
+
+
+
