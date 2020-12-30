@@ -1,7 +1,7 @@
-#include <stdio.h>
-#include <math.h>
+    #include <stdio.h>
+    #include <math.h>
 
-int main(){
+    int main(){
     
     float a,b,c,eps,x,froot;
     int k=0;
@@ -36,8 +36,8 @@ int main(){
     printf("f(%.2f)=%f\n",mid,froot);
     printf("Nepieciešmo literāciju skaits %d",k);
     
-return 0;
-}
+    return 0;
+    }
 
 
 
