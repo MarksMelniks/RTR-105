@@ -41,7 +41,7 @@
     return 0;
     }
     
-   ![image alt](2ld_roots/roots.png "")
+   ![roots.png](2ld_roots/roots.png "")
     
     
    # GNUPLOT
