@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+
 int main(){
     
     float a,b,c,eps,x,froot;
@@ -34,6 +35,7 @@ int main(){
     printf("\nSakne (1-x)*exp(-x)=%.2f izteiksmei ir   %f\n",c,mid);
     printf("f(%.2f)=%f\n",mid,froot);
     printf("Nepieciešmo literāciju skaits %d",k);
+    
 return 0;
 }
 
