@@ -1,7 +1,7 @@
-#include <stdio.h>
-#include <math.h>
+    #include <stdio.h>
+     #include <math.h>
 
-int main(){
+    int main(){
     
     double a, b, h, n, sum, sum1, sum2, sum3, analytintegr, eps;                 
     int k;   
@@ -47,17 +47,17 @@ int main(){
     
     analytintegr=exp(-a)*a+exp(-b)*b;
     
-  printf("integrālā vērtība, izmantojot kreisā taisnstūra metodi %f\n", sum);
-  printf("integrālā vērtība, izmantojot labā taisnstūra metodi %f\n", sum1);
-  printf("integrālā vērtība, izmantojot trapecu metodi %f\n", sum2);
-  printf("integrālā vērtība, izmantojot Simpsona metodi %f\n", sum3);
-  printf("integrālā vērtība, izmantojot analītisko formulu  %f\n", analytintegr);
+    printf("integrālā vērtība, izmantojot kreisā taisnstūra metodi %f\n", sum);
+    printf("integrālā vērtība, izmantojot labā taisnstūra metodi %f\n", sum1);
+    printf("integrālā vērtība, izmantojot trapecu metodi %f\n", sum2);
+    printf("integrālā vērtība, izmantojot Simpsona metodi %f\n", sum3);
+    printf("integrālā vērtība, izmantojot analītisko formulu  %f\n", analytintegr);
     
     
     
     
 }
 
-
+![Снимок экрана (59)](https://user-images.githubusercontent.com/71380657/103816463-ad0e8780-506d-11eb-9fa3-3db7b2d3652e.png)
 ![Снимок экрана (56)](https://user-images.githubusercontent.com/71380657/103815962-d67ae380-506c-11eb-8a84-1f0c01a58f51.png)
 ![Снимок экрана (57)](https://user-images.githubusercontent.com/71380657/103815965-d7137a00-506c-11eb-81c0-9223bb5b7c3e.png)
