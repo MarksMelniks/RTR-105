@@ -49,3 +49,6 @@
     
     return 0; 
     } 
+
+
+![Снимок экрана (70)](https://user-images.githubusercontent.com/71380657/104224469-b329ad00-544d-11eb-9c78-a6e5c52a9f74.png)
