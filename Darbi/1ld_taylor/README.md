@@ -1,7 +1,7 @@
 
     
- https://pastebin.pl/view/f9369c23
-
+    https://pastebin.pl/view/f9369c23
+(Parāk garas rindas lai redzēt visu github'a)
 
 
 ![Снимок экрана (67)](https://user-images.githubusercontent.com/71380657/104212939-70aca400-543e-11eb-869f-cce5a6ca7891.png)
